@@ -15,7 +15,6 @@ public:
 	double getMax();
 	double getAverage();
 	void display();
-
 private:
 	static int MAX_SIZE;
 	double* numArray = new double[MAX_SIZE];
